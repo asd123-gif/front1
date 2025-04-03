@@ -1,4 +1,4 @@
-fetch('/frontend/static/JSON/products.json') // کل محصولات را لود کن
+fetch('./frontend/static/JSON/products.json') // کل محصولات را لود کن
   .then(response => response.json())
   .then(data => {
     const productContainer = document.getElementById('product-list');
