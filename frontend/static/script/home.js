@@ -1,4 +1,4 @@
-fetch('/front1/frontend/static/JSON/productse.json')
+fetch('front1/frontend/static/JSON/productse.json')
   .then(response => response.json())
   .then(data => {
     const productContainer = document.getElementById('product-list');
