@@ -3,7 +3,7 @@ const params = new URLSearchParams(window.location.search);
 const articleId = params.get('id')?.replace(/[^a-zA-Z0-9_-]/g, ''); // جلوگیری از ورودی‌های خطرناک
 
 if (articleId) {
-  fetch(`static/JSON/${articleId}.json`)
+  fetch(`././static/JSON/${articleId}.json`)
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
