@@ -1,4 +1,4 @@
-fetch('https://asd123-gif.github.io/front1/frontend/static/JSON/productse.json')
+fetch('./frontend/static/JSON/productse.json')
   .then(response => response.json())
   .then(data => {
     const productContainer = document.getElementById('product-list');
