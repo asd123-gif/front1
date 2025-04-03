@@ -1,4 +1,4 @@
-fetch('/frontend/static/JSON/blogList.json')
+fetch('././static/JSON/blogList.json')
   .then(response => response.json())
   .then(articles => {
     const blogContainer = document.getElementById('blog-list');
